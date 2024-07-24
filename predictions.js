@@ -1,5 +1,4 @@
-//TODO: fix bug with repub hover at less than 150 scale
-
+//TODO: fix bug with repub hover
 var x_ticks = [0,5] 
 
 // set the dimensions and margins of the graph

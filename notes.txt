@@ -1,3 +1,4 @@
+Sources of data:
 predictions
 #https://en.wikipedia.org/wiki/Polling_for_United_States_presidential_elections
 #https://en.wikipedia.org/wiki/The_Keys_to_the_White_House
@@ -5,32 +6,6 @@ predictions
 presidential candidates
 #https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States
 #https://en.wikipedia.org/wiki/List_of_unsuccessful_major_party_candidates_for_President_of_the_United_States
+
+Sources of code snippets:
 #https://d3-graph-gallery.com
-
-
-
-The Literary Digest (maybe not)
-Cook Political Report
-Rothenberg & Gonzales
-Sabato's Crystal Ball
-The Daily Kos
-Princeton EC
-HuffPost
-PollyCote
-FiveThirtyEight
-diff news sources (CBS, Fox, ABC, NBC, etc)
-the economist
-
-aim for 5-6 sources, but go ahead and start making the visualization with the CSVs
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-A tooltip is a mouseover where the user can hover over a specific data point from a chart to learn more information
-An annotation is static and provides context or highlights important information added directly like text labels so user interaction is not needed for an annotation (like an explanation of the colors)
-
-parameter is the data that affects the trigger
-Parameters are inputs or settings that allow users to customize the visualization to better suit their needs or interests. As per my knowledge, it can be sorting the data, using the slider, filter the data by clicking on the legends, etc.
-
-annotation cannot be a mouseover, has to be tool tip
-
-Visual Structure basically means that how is the data presented in a way that makes sense to the user almost immediately. 
-Then, going ahead with how to highlight the portion to draw user's attention to the important information displayed in each scene. 
-In addition to that, to make sure that the viewer understands about how to navigate between the scenes and how to understand the linkage of data between all the scenes while transitioning among them.
