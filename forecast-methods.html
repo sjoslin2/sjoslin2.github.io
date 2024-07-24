@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Forecast Methods</title>
+  </head>
+  <body>
+      <h1>A Detailed Look at Each Forecasting Method</h1>
+      <p>Use the buttons below to learn about each forecasting method. In the pie chart, green indicates the percent of successful predictions while red indicates the percent of unsuccessful preidctions. Hover over a region of the pie chart to get the exact percentage.</p>
+      <p>When you're done, click 'Yearly Predictions' at the bottom of this page to move on to the next section.</p>
+      <script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+      <button onclick="update(pred_gallup, 'gallup')">Gallup</button>
+      <button onclick="update(pred_keys, 'keys')">The Keys to the White House</button>
+      <button onclick="update(pred_sandp, 'sandp')">S&P 500</button>
+      <button onclick="update(pred_total, 'all')">All</button>
+      <script src="forecast-methods.js"></script>
+      <h1 id="method_name"></h1>
+      <p id="method_desc"></p>
+      <nav>
+        <a href="./predictions.html">Yearly Predictions</a>
+      </nav>
+  </body>
+</html>
